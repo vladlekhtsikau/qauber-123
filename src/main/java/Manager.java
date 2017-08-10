@@ -1,14 +1,12 @@
 
-
 public class Manager extends Employee {
 	
-		public Manager(String name, int salary){
+		public Manager(String name, double salary){
 			super(name, salary);
 		}
 			
-		public void calculateSalary(){
-			int managerSalary = salary + 5000;
-			int salary = managerSalary;
+		public double calculateSalary(){
+			 return salary + 3;
 		}
 		
 			
